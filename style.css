@@ -124,11 +124,28 @@
 }
 
 
+/**** ESERCIZIO 10 ****/
 
 
 .ex-10-icon {
     font-size: 60px;
+    animation: infinite-spin 2s linear infinite;
 }
+
+@keyframes infinite-spin{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/**** ESERCIZIO 11 ****/
+
+
+
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
