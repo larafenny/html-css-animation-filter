@@ -60,7 +60,23 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: 2s;
 }
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+
+.ex-5-square:active{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+/**** ESERCIZIO 6 ****/
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
