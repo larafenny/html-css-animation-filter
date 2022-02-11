@@ -101,8 +101,18 @@
 
 .ex-8-img {
     width: 500px;
-
+    transition: 4s;
 }
+
+.ex-8-img:hover{
+    filter: sepia(100%);
+    border-radius: 30px;
+}
+
+
+
+
+/**** ESERCIZIO 9 ****/
 
 .ex-9-img {
     margin: 50px 100px;
